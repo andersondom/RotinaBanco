@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  
+  mssql:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "!MyStrongPassword"
+      ACCEPT_EULA: "Y"
+    
+  mssql-consolidador:
+    container_name: mssql-consolidador
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "!MyStrongPassword"
+      ACCEPT_EULA: "Y"
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+      RABBITMQ_DEFAULT_VHOST: "bancocarrefour"

@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a70fe2e1_002D1376_002D4df1_002Da381_002D2c5e5dd78a7a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DadoUmaCaixa_QuandoFechada_EntaoMudaOStatusParaFechada" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::039E2782-AECA-483F-B07D-DBB530562536::net7.0::Testes.Dominio.CaixaTestes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::039E2782-AECA-483F-B07D-DBB530562536::net7.0::Testes.Aplicacao.CasosDeUso.CriarOCaixaTestes.DadoUmaCaixa_QuandoExecutar_EntaoCrie&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::039E2782-AECA-483F-B07D-DBB530562536::net7.0::Testes.Aplicacao.CasosDeUso.CriarOCaixaTestes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::039E2782-AECA-483F-B07D-DBB530562536::net7.0::Testes.Aplicacao.CasosDeUso.AdicionarLancamentoNoCaixaTestes.DadoUmLancamento_QuandoExecutado_EntaoAdicionadoNoCaixa&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::039E2782-AECA-483F-B07D-DBB530562536::net7.0::Testes.Aplicacao.CasosDeUso.AdicionarLancamentoNoCaixaTestes&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
